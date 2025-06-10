@@ -278,7 +278,7 @@ class MainWindow(QMainWindow):
             self.show()
             self.statusBar.showMessage('Готов к работе')
 
-    # Запуск приложения с тестими и калькулятором (lab7)
+    # Запуск приложения с тестами и калькулятором (lab7)
     def open_app(self):
         self.statusBar.showMessage(f'Открытие приложения...')
         QApplication.processEvents()
